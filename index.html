@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+	<head><link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="style.css?<?php echo time() ?>" type="text/css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css?<?php echo time() ?>" type="text/css"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css?<?php echo time() ?>" type="text/css"/>
+	<meta charset="utf-8"/>
+	<title>Portal</title>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/scrpit.js"></script>
+</head>
+<body>
+	<!-- SEÇAO 1  MENU!-->
+	<div class="Portal">
+		<div class="cabecalho">
+			<div class="container">
+				<div class="logo"><img src="imagens/logo.png"></div>
+				<ul class="menu">
+					<li> <a href="policia"></a>Policia</li>
+					<li> <a href="politica"></a>Politica</li>
+					<li> <a href="entreterimento"></a>Entreterimento</li>
+					<li> <a href="manaus"></a>Manaus</li>
+					<li class="mais"> <a href="mais"></a>Mais +</li>
+				</ul>
+
+				<!-- SUB MENU !-->
+
+
+				<ul class="sub_menu"><li> <a href="policia"></a>Policia</li>
+					<li> <a href="brasil"></a>Brasil</li>
+					<li> <a href="mundo"></a>Mundo</li>
+					<li> <a href="pim"></a>Pim
+					<li> <a href="economia"></a>Economia</li>
+					<li> <a href="moda"></a>Moda</li>
+					<li> <a href="tecnologia"></a>Tecnologia</li>
+					<li> <a href="famosos"></a>Famosos</li>
+					<li> <a href="saude"></a>Saúde</li>
+					</li> </ul>
+				<!-- REDES SOCIAIS  !-->
+				<ul class="rede">
+					<!-- os "fa fa-parametro" serve para colocar os icones na pagina !-->
+					<li>
+						<a class="fa fa-facebook-square" href="#"></a>
+					</li>
+					<li>
+						<a class="fa fa-twitter-square" href="#"></a>
+					</li>
+					<li>
+						<a class="fa fa-instagram" href="#"></a>
+					</li>
+					<li>
+						<a class="fa fa-google-plus-square" href="#"></a>
+					</li>
+					<li>
+						<a class="fa fa-youtube-play" href="#"></a>
+					</li>
+				</ul>
+				<!--TEMOS AQUI UM FORM PARA PESQUISA-->
+				<form class="pesquisar">
+					
+					<input class="pesquisa" type="text" name="pesquisa">
+					<button class="botao"><samp class="fa fa-search"></samp ></button>
+				</form>
+			</div>
+		</div>
+		<!-- SEÇAO 2 !-->
+		<div class="destaques">
+			<div class="container">
+				
+				<h2>Destaques Do Dia</h2>
+				<!-- DIV PADRAO DO BOOTSTRAP !-->
+				<div class="row">
+					<!--ROW= LINHA  / COL cria a culunas, xs: celular, sm, tablet, md: desktop, lg: maiores que desktops.
+					do xs ate o sm. e dai do md ate o lg vai pegar as 4 colunas.!-->
+					<div class="miniatura col-xs-12 col-md-3"><img src="imagens/miniatura.png">Titulo Do Post</div>
+					<div class="miniatura col-xs-12 col-md-3"><img src="imagens/miniatura.png">Titulo Do Post</div>
+					<div class="miniatura col-xs-12 col-md-3"><img src="imagens/miniatura.png">Titulo Do Post</div>
+					<div class="miniatura col-xs-12 col-md-3"><img src="imagens/miniatura.png">Titulo Do Post</div>
+				</div>
+			</div>
+			<div class="container">
+				
+				<div class="row">
+					<!-- 1 !-->
+					<div class="mini col-xs-12 col-md-3"><h3>Polícia</h3>
+						<div class="row item_mini">
+							<div class="col-xs-12 col-md-5"><img src="imagens/miniatura.png"></div>
+							<div class="col-xs-12 col-md-7"><h4>Titulo Do Post</h4></div>
+						</div><div class="row item_mini">
+						<div class="col-xs-12 col-md-5"><img src="imagens/miniatura.png"></div>
+						<div class="col-xs-12 col-md-7"><h4>Titulo Do Post</h4></div>
+					</div><div class="row item_mini">
+					<div class="col-xs-12 col-md-5"><img src="imagens/miniatura.png"></div>
+					<div class="col-xs-12 col-md-7"><h4>Titulo Do Post</h4></div>
+				</div>
+			</div>
+			<!-- 2 !-->
+			<div class="mini col-xs-12 col-md-3"><h3>Política</h3>
+				<div class="row item_mini">
+					<div class="col-xs-12 col-md-5"><img src="imagens/miniatura.png"></div>
+					<div class="col-xs-12 col-md-7"><h4>Titulo Do Post</h4></div>
+				</div><div class="row item_mini">
+				<div class="col-xs-12 col-md-5"><img src="imagens/miniatura.png"></div>
+				<div class="col-xs-12 col-md-7"><h4>Titulo Do Post</h4></div>
+			</div><div class="row item_mini">
+			<div class="col-xs-12 col-md-5"><img src="imagens/miniatura.png"></div>
+			<div class="col-xs-12 col-md-7"><h4>Titulo Do Post</h4></div>
+		</div>
+	</div>
+	<!-- 3 !-->
+	<div class="mini col-xs-12 col-md-3"><h3>Cidade</h3>
+		<div class="row item_mini">
+			<div class="col-xs-12 col-md-5"><img src="imagens/miniatura.png"></div>
+			<div class="col-xs-12 col-md-7"><h4>Titulo Do Post</h4></div>
+		</div><div class="row item_mini">
+		<div class="col-xs-12 col-md-5"><img src="imagens/miniatura.png"></div>
+		<div class="col-xs-12 col-md-7"><h4>Titulo Do Post</h4></div>
+	</div><div class="row item_mini">
+	<div class="col-xs-12 col-md-5"><img src="imagens/miniatura.png"></div>
+	<div class="col-xs-12 col-md-7"><h4>Titulo Do Post</h4></div>
+</div>
+</div>
+<!-- 4 !-->
+<div class="mini col-xs-12 col-md-3">
+<img src="imagens/miniatura.png">
+</div>
+</div>
+</div>
+</div>
+<!-- SEÇAO 5 MAIS LIDOS !-->
+<h3 class="mais_lidos">Mais Lidos</h3>
+<div class="mais_lidas">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-md-2"><h3 class="pode">Titulo Post</h3> <p class="ler"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+<div class="col-xs-12 col-md-2"><h3 class="pode">Titulo Post</h3> <p class="ler"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+<div class="col-xs-12 col-md-2"><h3 class="pode">Titulo Post</h3> <p class="ler"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+<div class="col-xs-12 col-md-2"><h3 class="pode">Titulo Post</h3> <p class="ler"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+<div class="col-xs-12 col-md-2"><h3 class="pode">Titulo Post</h3> <p class="ler"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+<div class="col-xs-12 col-md-2"><h3 class="pode">Titulo Post</h3> <p class="ler"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- SEÇAO 6 !-->
+<div class="entreterimento">
+<div class="container">
+<h3>Entreteremento</h3>
+<div class="row">
+<!-- 1.0 !-->
+<div class="mini col-xs-12 col-md-3">
+<div class="row item_mini">
+<div class="col-xs-12 col-md-5"><img src="imagens/miniatura.png"></div>
+<div class="col-xs-12 col-md-7"><h4>Titulo Do Post</h4></div>
+</div><div class="row item_mini">
+<div class="col-xs-12 col-md-5"><img src="imagens/miniatura.png"></div>
+<div class="col-xs-12 col-md-7"><h4>Titulo Do Post</h4></div>
+</div>
+</div>
+<!-- 1.2 !-->
+<div class="mini col-xs-12 col-md-3">
+<div class="row item_mini">
+<div class="col-xs-12 col-md-5"><img src="imagens/miniatura.png"></div>
+<div class="col-xs-12 col-md-7"><h4>Titulo Do Post</h4></div>
+</div><div class="row item_mini">
+<div class="col-xs-12 col-md-5"><img src="imagens/miniatura.png"></div>
+<div class="col-xs-12 col-md-7"><h4>Titulo Do Post</h4></div>
+</div>
+</div>
+<!-- 1.3 !-->
+<div class="mini col-xs-12 col-md-3">
+<div class="row item_mini">
+<div class="col-xs-12 col-md-5"><img src="imagens/miniatura.png"></div>
+<div class="col-xs-12 col-md-7"><h4>Titulo Do Post</h4></div>
+</div><div class="row item_mini">
+<div class="col-xs-12 col-md-5"><img src="imagens/miniatura.png"></div>
+<div class="col-xs-12 col-md-7"><h4>Titulo Do Post</h4></div>
+</div>
+</div>
+<!-- 1.4 !-->
+<div class="mini col-xs-12 col-md-3"><
+<div class="row item_mini">
+<div class="col-xs-12 col-md-5"><img src="imagens/miniatura.png"></div>
+<div class="col-xs-12 col-md-7"><h4>Titulo Do Post</h4></div>
+</div><div class="row item_mini">
+<div class="col-xs-12 col-md-5"><img src="imagens/miniatura.png"></div>
+<div class="col-xs-12 col-md-7"><h4>Titulo Do Post</h4></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- SEÇAO 6 !-->
+<h3 class="container">Vídeos</h3>
+<div class="videos ">
+<div class="container">
+	<div class="row mais_videos">
+	<div class="col-xs-12 col-md-10">
+	<div class="row videos_post">
+
+
+					<!--ROW= LINHA  / COL cria a culunas, xs: celular, sm, tablet, md: desktop, lg: maiores que desktops.
+					do xs ate o sm. e dai do md ate o lg vai pegar as 4 colunas.!-->
+					<div class="miniatura col-xs-12 col-md-3"><img src="imagens/miniatura.png">Titulo Do Post</div>
+					<div class="miniatura col-xs-12 col-md-3"><img src="imagens/miniatura.png">Titulo Do Post</div>
+					<div class="miniatura col-xs-12 col-md-3"><img src="imagens/miniatura.png">Titulo Do Post</div>
+					<div class="miniatura col-xs-12 col-md-3"><img src="imagens/miniatura.png">Titulo Do Post</div>
+				</div>
+
+					<div class="row videos_post">
+					<!--ROW= LINHA  / COL cria a culunas, xs: celular, sm, tablet, md: desktop, lg: maiores que desktops.
+					do xs ate o sm. e dai do md ate o lg vai pegar as 4 colunas.!-->
+					<div class="miniatura col-xs-12 col-md-3"><img src="imagens/miniatura.png">Titulo Do Post</div>
+					<div class="miniatura col-xs-12 col-md-3"><img src="imagens/miniatura.png">Titulo Do Post</div>
+					<div class="miniatura col-xs-12 col-md-3"><img src="imagens/miniatura.png">Titulo Do Post</div>
+					<div class="miniatura col-xs-12 col-md-3"><img src="imagens/miniatura.png">Titulo Do Post</div>
+				</div>
+				</div>
+				<div class="col -xs-12 col-md-2 "></div>
+
+
+			</div>	
+
+</div>	
+
+</div>
+
+<!-- SEÇAO 7!-->
+<div class="rodape">
+	
+<div class="container">
+
+<div class="row contatos">
+
+					<!--ROW= LINHA  / COL cria a culunas, xs: celular, sm, tablet, md: desktop, lg: maiores que desktops.
+					do xs ate o sm. e dai do md ate o lg vai pegar as 4 colunas.!-->
+					<div class="miniatura col-xs-12 col-md-3"><div class="logo2"><img src="imagens/logo2.png"></div></div>
+					<div class="miniatura col-xs-12 col-md-3"> <h3 class="contato">Contato</h3>
+
+					<p class="conte">contato@vertudo.com</p> 
+
+					<p class="conte">redaçao@vejotudo.com</p>
+
+					<p class="conte"><a href="fale_conosco">Fale Conosco</a></p>
+
+
+					</div>
+					<div class="miniatura col-xs-12 col-md-3"><h3 class="segue">Siga-Nos</h3
+
+
+					><ul class="redes2">
+					<!-- os "fa fa-parametro" serve para colocar os icones na pagina !-->
+					<li>
+						<a class="fa fa-facebook-square" href="#"></a>
+					</li>
+					<li>
+						<a class="fa fa-twitter-square" href="#"></a>
+					</li>
+					<li>
+						<a class="fa fa-instagram" href="#"></a>
+					</li>
+					<li>
+						<a class="fa fa-google-plus-square" href="#"></a>
+					</li>
+					<li>
+						<a class="fa fa-youtube-play" href="#"></a>
+					</li>
+				</ul> <p class="citando">Siga-nos nas redes sociais e fique por dentro das noticias de ultima hora.</p></div>
+
+					<div class="miniatura col-xs-12 col-md-3"><p class="caracter"> Política Polícia Mundo Brasil Tecnologia Esportes Manaus Entreterimento Moda Famosos Economia </p></div>
+				</div>
+
+
+
+</div>
+
+</div>
+
+<div class="final">
+<div class="container">
+	
+<p class="direitos">Todos os direitos reservados</p>
+
+<p class="desenvolvido">Desenvolvido por Albreis-Design & Progamação</p>
+
+</div>	
+
+
+
+
+</div>
+
+
+</body>
+</html>

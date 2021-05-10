@@ -1,0 +1,43 @@
+1> index html
+
+Esse projeto é divido por seções. 1-4
+
+2>temos um menu principal.. com os principais assuntos, um botao de "mais" as redes socias e a opção de pesquisar.
+
+3> um submenu com mais informações.
+
+4> no corpo os destaques do dia.( foi usado imagens para simular os posts)
+
+seção 5- 
+
+< mais lidos um conjunto de imagens para simular os post>
+
+sençao 6> entreterimento> conjunto de imagens para simular os post>
+
+seção 7> videos > um conjunto de imagens para simular os post.
+
+seção 8> um rodapé com os contatos, e redes sociais. 
+
+> Foi usado  o bootstrap que usa vários containers, linhas e colunas para arranjar e alinhar conteúdo. Ele é feito com flexbox e é, totalmente, responsivo. ( ou seja este projeto vai se adaptar aos limites da tela.)
+
+> foi usado tambem o font-awesome que é um conjunto de ferramentas de fontes e ícones com base em CSS e LESS. 
+
+> NO CSS.> 
+
+foi separados por seção que nem se encontra no HTML. 
+
+>NO JS...
+
+No arquivo scrpte.js temos uma função que ao clicar no botao "MAIS", vai abrir o sub-menu
+
+
+OBS:ESTE É UM PROJETO PROFISSIONAL / Favorecendo a empresa  "Albreis Network"/apenas uma pagina estatica
+
+o arquivo psd encontra-se junto a pasta imagens.
+
+
+Francine Hollweg : Programador junior 
+
+
+
+

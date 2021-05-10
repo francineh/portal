@@ -1,0 +1,88 @@
+/* MENU DA PAGINA */
+img{max-width:100%; }
+.portal{}
+
+.container{position: relative;}
+.cabecalho{background-color: #ff4040;}
+
+.logo{display:inline-block;float: left;}
+
+.menu{display:inline-block;margin-top: 24px; }
+
+.menu li{display:inline-block;float: left; margin-left:45px;color: #fff; font-size: 18px; }
+
+.menu li a{}
+
+.mais{border-radius:6px; ;background-color:#efa901;padding:0 10px;  }
+/* SUB MENU */
+
+.sub_menu{position: absolute;top: 100%;left: 0;width: 100%;background-color:#efa901;z-index:99;list-style: none;display: none;}
+
+.sub_menu li{display: inline-block;margin-right:37px; padding:15px; font-weight:bold;}
+
+/* MENU REDES SOCIAIS */
+
+.rede{display:inline-block;margin-top: 24px; }
+
+.rede li{display:inline-block;float: left; margin-left:15px;font-size: 18px;}
+
+.rede li a{color:#fff;}
+
+/* FORMULARIO DO MENU */
+
+.pesquisar{display:inline-block;float: right;margin-top: 24px;}
+
+.pesquisa{display:inline-block;display: none;float: left;float: right;}
+
+/* SPAN DENTRO DO BOTAO*/
+
+.fa-search{display:inline-block;float: left; }
+
+/* CLASSE DO BOTAO*/
+.botao{border:none;background-color:transparent;color: #fff;font-size:24px;}
+
+
+/* DESTAQUES DE CONTEUDO*/
+
+.mini .item_mini{margin-bottom:15px; }
+
+
+/* MAIS LIDOS */
+
+.mais_lidas{background-color:#161616; }
+
+.pode{color:#fff; }
+
+.ler{color:#fff; }
+
+/* VÍDEOS*/
+
+
+.videos{background-color:#161616;padding-top:30px;padding-bottom: 30px; }
+
+
+/* RODAPÉ*/
+
+
+.logo2{padding-top:70px;padding-bottom:70px;}
+
+.contato{padding-top:34px;padding-bottom:20px; border-bottom: 3px solid red; }
+
+.conte{font-size:18px;color:#202020;}
+.conte a{font-size:18px;color:#202020;}
+
+
+.segue{padding-top:34px;padding-bottom:20px;border-bottom: 3px solid red;}
+.redes2{margin:none;padding:0;  }
+.redes2 li {display: inline-block;margin-left:18px;font-size: 24px ;}
+.redes2 li a {color:#000000; }
+.citando{font-size:14px; }
+.caracter{padding-top:40px;padding-bottom:40px;font-size: 24px;}
+
+/* FINAL*/
+
+.final{background-color:#ff4040;}
+
+.direitos{float: left;margin-top:28px;margin-bottom:24px;color:#fff; font-size: 18px; }
+
+.desenvolvido{float: right;margin-top:28px;margin-bottom:24px;color:#fff;font-size: 18px; }
